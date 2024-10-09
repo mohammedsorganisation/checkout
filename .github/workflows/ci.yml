@@ -1,0 +1,8 @@
+name: dd
+on: push
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - run: echo "working"
